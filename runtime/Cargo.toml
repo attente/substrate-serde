@@ -23,7 +23,7 @@ std = [
     'sudo/std',
     'version/std',
     'serde_derive',
-    'serde',
+    'serde/std',
     'safe-mix/std',
     'consensus-aura/std',
     'offchain-primitives/std',
@@ -116,7 +116,7 @@ default-features = false
 version = '1.0'
 
 [dependencies.serde]
-optional = true
+default-features = false
 version = '1.0'
 
 [dependencies.serde_derive]
